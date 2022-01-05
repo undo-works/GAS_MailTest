@@ -3,5 +3,5 @@ function doGet() {
 }
 
 function myFunction(form) {
-  GmailApp.sendEmail('markz29022097@gmail.com','テストメール',form.mainText);
+  GmailApp.sendEmail('email@address.com','テストメール',form.mainText);
 }
